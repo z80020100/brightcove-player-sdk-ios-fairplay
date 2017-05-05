@@ -84,7 +84,7 @@ extern const NSInteger kBCOVFPSAuthProxyErrorCodeContentKeyGenerationFailed;
  *
  * @return An initialized proxy.
  */
-- (nullable instancetype)initWithPublisherId:(NSString *)pubId
+- (nullable instancetype)initWithPublisherId:(nullable NSString *)pubId
                                applicationId:(nullable NSString *)appId
     NS_DESIGNATED_INITIALIZER;
 

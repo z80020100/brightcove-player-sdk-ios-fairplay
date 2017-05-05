@@ -1,4 +1,4 @@
-# FairPlay plugin for Brightcove Player SDK for iOS, version 1.1.3.89
+# FairPlay plugin for Brightcove Player SDK for iOS, version 1.2.0.19
 
 Supported Platforms
 ===================

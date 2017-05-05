@@ -1,3 +1,12 @@
+# 1.2.0
+### Additions and Improvements
+* Adds support for downloading FairPlay-encrypted HLS videos, and playing them back from storage while online or offline in conjunction with the core BrightcovePlayerSDK framework.
+* The publisher ID can be nil when calling `-[BCOVFPSBrightcoveAuthProxy initWithPublisherId:applicationId:]`. Neither value is needed for Dynamic Delivery accounts.
+* Requires version 6.0.0 or newer of the core BrightcovePlayerSDK framework.
+
+### Breaking Changes
+* The `BCOVFPSAuthorizationProxy` protocol definition has been moved from the BrightcoveFairPlay module, to the BrightcovePlayerSDK module.
+
 # 1.1.3
 
 ### Additions and Improvements
